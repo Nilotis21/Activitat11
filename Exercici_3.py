@@ -1,6 +1,6 @@
 def main():
-    nums_6 = [x for x in range(0, 1001) if x in 6]
-    print("hola")
+    nombres = [x for x in range(1001) if '6' in str(x)]
+    print(nombres)
 
 
 if __name__ == '__main__':

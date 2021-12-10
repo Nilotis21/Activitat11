@@ -1,6 +1,7 @@
 def main():
+
     state = "Practica els problemes de list comprehensions per a ser més Pythonic!"
-    resultat = [i for i in state if not i in 'aeiouyAEIOUYé']
+    resultat = [i for i in state.split() if len(i) < 6]
     print(resultat)
 
 
